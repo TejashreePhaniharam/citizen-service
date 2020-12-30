@@ -1,0 +1,20 @@
+
+.operation-list{
+    ul#cat_nav li a:after {
+        display: none;
+    }
+    ul#cat_nav li {
+        cursor: pointer;
+    }
+    ul#cat_nav li a span {
+        font-size: 11px;
+        font-size: 1.1rem;
+        color: inherit;
+    }
+
+    .material-icons{
+        position: relative;
+        top: 4px;
+        margin-right: 10px;
+    }
+}

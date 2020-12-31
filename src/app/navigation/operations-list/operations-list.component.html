@@ -1,13 +1,13 @@
 <aside id="sidebar" class="operation-list">
-    <div class="box_style_cat" id="faq_box">
+    <div class="box_style_cat" id="navigation" >
         <ul id="cat_nav">
             <li *ngFor="let item of operationList">
                 <a (click)="navigate(item.route)">
-                    <span class="material-icons">text_snippet </span> 
-                    <label class="operation-title">{{ 'operations.'+item.name}}</label>
+
+                    <p>{{ item.name}}</p>
                 </a>
             </li>
         </ul>
     </div>
-    <!--/sticky -->
+
 </aside>

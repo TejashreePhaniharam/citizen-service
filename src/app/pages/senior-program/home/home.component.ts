@@ -16,11 +16,11 @@ export class HomeComponent implements OnInit {
     operationList = [
 
       {
-        name: 'seniorProgram.manageSeniors',
+        name: 'manageSeniors',
         route: 'seniorProgram/manageSeniors'
       },
       {
-        name: 'seniorProgram.accounting',
+        name: 'accounting',
         route: 'seniorProgram/accounting'
       }
     ]
